@@ -1,0 +1,1 @@
+tap `ls test/*.js|grep -v test/git-head.js`
