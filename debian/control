@@ -9,10 +9,10 @@ Build-Depends:
  , dh-sequence-nodejs
  , node-glob <!nocheck>
  , node-json-parse-better-errors <!nocheck>
- , node-normalize-package-data (>= 3.0.3~) <!nocheck>
+ , node-normalize-package-data (>= 4) <!nocheck>
  , node-slash <!nocheck>
  , node-tap <!nocheck>
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-read-package-json
 Vcs-Git: https://salsa.debian.org/js-team/node-read-package-json.git
 Homepage: https://github.com/isaacs/read-package-json
@@ -23,9 +23,9 @@ Architecture: all
 Depends: ${misc:Depends}
  , node-glob
  , node-json-parse-better-errors
- , node-normalize-package-data (>= 3.0.3~)
+ , node-normalize-package-data (>= 4)
  , node-slash
- , nodejs
+Provides: ${nodejs:Provides}
 Recommends: node-graceful-fs
 Description: Read package.json for npm module for Node.js
  This module reads package.json files with semantics, defaults, and
