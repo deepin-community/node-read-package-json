@@ -1,8 +1,5 @@
-# Change Log
+# Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-<a name="4.0.0"></a>
 # [4.0.0](https://github.com/npm/read-package-json/compare/v3.0.1...v4.0.0) (2021-08-18)
 
 
@@ -23,6 +20,43 @@ Also other errors i.e. ENOENT attach a path attribute.
 
 
 <a name="3.0.1"></a>
+## [5.0.2](https://github.com/npm/read-package-json/compare/v5.0.1...v5.0.2) (2022-08-23)
+
+
+### Dependencies
+
+* bump npm-normalize-package-bin from 1.0.1 to 2.0.0 ([#129](https://github.com/npm/read-package-json/issues/129)) ([6ce5501](https://github.com/npm/read-package-json/commit/6ce55010e88f83a4d59097e5583e4a8715260a63))
+
+### [5.0.1](https://github.com/npm/read-package-json/compare/v5.0.0...v5.0.1) (2022-04-20)
+
+
+### Dependencies
+
+* bump glob from 7.2.0 to 8.0.1 ([#124](https://github.com/npm/read-package-json/issues/124)) ([ddd4a2a](https://github.com/npm/read-package-json/commit/ddd4a2aecb327c0884e7d6641f20255abcc464c6))
+
+## [5.0.0](https://www.github.com/npm/read-package-json/compare/v4.1.2...v5.0.0) (2022-03-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* This drops support for node10 and non-LTS versions of node12 and node14
+
+### Bug Fixes
+
+* always use / in package.json paths ([18cc3fa](https://www.github.com/npm/read-package-json/commit/18cc3faafae4aa39d5c5243feb5240a55da64965))
+* move files to lib ([bd7fac4](https://www.github.com/npm/read-package-json/commit/bd7fac4862a6f230bc0e37b3483079cf9a49c275))
+
+
+* @npmcli/template-oss@2.9.2 ([2122bc2](https://www.github.com/npm/read-package-json/commit/2122bc20231dfd0d6cee85e014e118f12192cdfc))
+
+
+### Dependencies
+
+* bump normalize-package-data from 3.0.3 to 4.0.0 ([#113](https://www.github.com/npm/read-package-json/issues/113)) ([b905443](https://www.github.com/npm/read-package-json/commit/b90544351fea84cf557572509129e84c06e8be45))
+* update glob requirement from ^7.1.1 to ^7.2.0 ([#115](https://www.github.com/npm/read-package-json/issues/115)) ([35482c4](https://www.github.com/npm/read-package-json/commit/35482c48afde7d7d3fc647416acfb30a9c753b1d))
+* update json-parse-even-better-errors requirement ([#116](https://www.github.com/npm/read-package-json/issues/116)) ([1b1b3f0](https://www.github.com/npm/read-package-json/commit/1b1b3f0a979d1f6cd4a46b86b21abe020d849052))
+* update npm-normalize-package-bin requirement from ^1.0.0 to ^1.0.1 ([#114](https://www.github.com/npm/read-package-json/issues/114)) ([d1f64a5](https://www.github.com/npm/read-package-json/commit/d1f64a5d8250cc96df2f21200f92c5633418b33e))
+
 ## [3.0.1](https://github.com/npm/read-package-json/compare/v3.0.0...v3.0.1) (2021-02-22)
 
 

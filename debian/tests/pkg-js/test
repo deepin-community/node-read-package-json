@@ -1,1 +1,1 @@
-tap `ls test/*.js|grep -v test/git-head.js`
+tap --no-cov `ls test/*.js|grep -v test/git-head.js`

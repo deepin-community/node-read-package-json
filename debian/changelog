@@ -1,3 +1,40 @@
+node-read-package-json (5.0.2+~2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.6.1
+  * New upstream version 5.0.2+~2.0.0
+
+ -- Yadd <yadd@debian.org>  Thu, 25 Aug 2022 09:37:30 +0200
+
+node-read-package-json (5.0.1+~1.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Set upstream metadata fields: Security-Contact.
+  * New upstream version 5.0.1+~1.0.1
+
+ -- Yadd <yadd@debian.org>  Thu, 05 May 2022 15:10:05 +0200
+
+node-read-package-json (5.0.0+~1.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 5.0.0+~1.0.1
+  * Drop patch
+  * Require node-normalize-package-data >= 4
+
+ -- Yadd <yadd@debian.org>  Mon, 04 Apr 2022 16:30:41 +0200
+
+node-read-package-json (4.1.2+~1.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Use uscan group
+  * New upstream version 4.1.2+~1.0.1
+  * Install npm-normalize-package-bin in root dir
+  * Fix test for tap >= 15 (--no-cov)
+
+ -- Yadd <yadd@debian.org>  Thu, 10 Mar 2022 15:43:20 +0100
+
 node-read-package-json (4.1.1-1) unstable; urgency=medium
 
   * Team upload
